@@ -93,6 +93,49 @@ Dependent Variable:
 ## 2) Secondary: Is race also a significant factor for CHD? If so, which group is most prominent? 
 
 
+<img width="595" height="330" alt="image" src="https://github.com/user-attachments/assets/f5e2627b-3f27-49be-8bc8-4eb76c37ce93" />
+
+(Fig. 1) 
+
+
+
+<img width="475" height="334" alt="image" src="https://github.com/user-attachments/assets/a5a884f8-237f-40a3-ba3d-a08bd035b63e" />
+
+(Fig. 2) 
+
+
+
+<img width="380" height="179" alt="image" src="https://github.com/user-attachments/assets/cf118eda-6751-4a3b-88bb-ac77090b818e" />
+
+(Fig. 3) 
+
+
+
+🔬 Methodology
+
+- Model Type: Binomial Logistic Regression (Bivariate)
+- Predictor: Race (Categorical)Reference Level: White (W)
+- Model Significance: The model is statistically significant ($\chi^2 = 12.38, p = 0.006$), indicating that race is a meaningful predictor in this sample.
+
+
+📊 Key Findings: Risk by Demographic Group
+
+- The analysis identified a clear hierarchy of risk, with the African American and Mexican American groups showing the most prominent likelihood of disease.
+
+1. Predicted ProbabilitiesThe Estimated Marginal Means represent the "real-world" probability of a person in each group having CHD based on this sample:
+- AF (African American): 64.3% probability
+- MA (Mexican American): 56.5% probability
+- O (Other): 41.7% probability
+- W (White): 20.0% probability (Baseline)
+
+
+2. Relative Risk (Odds Ratios)Using the White (W) group as the benchmark, the Odds Ratios (OR) quantify how much higher the risk is for other groups:
+- AF vs. W: Individuals in the AF group are 7.2 times more likely to have CHD ($p = 0.002$).
+- MA vs. W: Individuals in the MA group are 5.2 times more likely to have CHD ($p = 0.012$).
+- O vs. W: While the risk was 2.8 times higher, this result did not reach statistical significance ($p = 0.106$), suggesting a larger sample size may be needed for this specific subgroup.
+
+
+📝 Conclusion: The data demonstrates that Race is a significant factor for CHD in this population, with the African American (AF) group being the most prominently affected. These findings highlight significant health disparities that warrant further investigation into contributing factors such as age distribution, socioeconomic variables, or access to preventative care.
 
 
 
