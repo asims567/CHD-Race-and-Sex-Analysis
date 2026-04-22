@@ -1,9 +1,196 @@
 # CHD-Race-and-Sex-Analysis
 Research Analysis of CHD and Race/Sex 
 
-This research project utilizes a clinical dataset of 100 observations to investigate the primary demographic predictors of Coronary Heart Disease (CHD). By employing Binomial Logistic Regression within the jamovi statistical environment, this analysis identifies how variables such as Age, Sex, and Race influence the probability of a CHD diagnosis.
+This research data is originally from my statistics class project, which utilizes a clinical dataset of 100 observations to investigate the primary demographic predictors of Coronary Heart Disease (CHD). Using Binomial Logistic Regression in jamovi, this analysis examines how variables such as Age, Sex, and Race influence the probability of a CHD diagnosis.
 
-The goal of this project is to demonstrate competency in epidemiological data analysis, multivariate statistical modelling, and the interpretation of odds ratios (OR) in a public health context.
+The goal of this project is to demonstrate competency in epidemiological data analysis, multivariate statistical modelling, and the interpretation of odds ratios (OR) in a public health context. 
+
+
+With this dataset, I wanted to answer 2 questions: 
+- Primary: Is there evidence of higher CHD rates in males than in females, and vice versa? 
+
+- Secondary: Is race also a significant factor for CHD? If so, which group is most prominent?
+
+
+
+
+## 1) Primary: Is there evidence of higher CHD rates in males than in females, and vice versa? 
+
+
+CHD Comparison of Male to Female
+
+
+                      
+
+
+            
+
+
+                
+
+Help
+
+
+            
+
+
+        
+
+Model Fit Measures
+
+Overall Model Test
+
+Model
+
+Deviance
+
+AIC
+
+R²
+
+McF
+
+χ²
+
+df
+
+p
+
+1
+
+121.685
+
+125.685
+
+0.118
+
+16.304
+
+1
+
+< .001
+
+Note.
+
+ Models estimated using sample size of N=100
+
+
+            
+
+
+                
+
+Help
+
+
+            
+
+
+        
+
+Model Specific Results
+
+Model 1
+
+Model 1
+
+Model Coefficients - CHD
+
+95% Confidence Interval
+
+95% Confidence Interval
+
+Predictor
+
+Estimate
+
+Lower
+
+Upper
+
+SE
+
+Z
+
+p
+
+Odds ratio
+
+Lower
+
+Upper
+
+Intercept
+
+−0.999
+
+−1.611
+
+−0.386
+
+0.313
+
+−3.194
+
+0.001
+
+0.368
+
+0.200
+
+0.680
+
+Sex:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+M – F
+
+1.692
+
+0.834
+
+2.549
+
+0.438
+
+3.866
+
+< .001
+
+5.429
+
+2.302
+
+12.799
+
+Note: Estimates represent the log odds of "CHD = 1" vs. "CHD = 0"
+
+
+            
+
+
+      
+
+
+
+## 2) Secondary: Is race also a significant factor for CHD? If so, which group is most prominent? 
 
 
 
@@ -123,19 +310,3 @@ Dependent Variable:
 |   0 | O    | M   |  50 |
 |   0 | O    | M   |  52 |
 |   0 | O    | M   |  55 |
-
-
-
-
-
-
-
-
-## 📊 Key Findings
-
-The final model was highly significant **($\chi^2 = 89.6, p < .001$)** with a McFadden $R^2$ of 0.650, indicating strong predictive power. 
-- Age as a Primary Driver: Age proved to be the most significant predictor **($p < .001$)**. For every one-year increase in age, the odds of having CHD increase by **77.9% (OR = 1.779)**.
-  
-- Demographic Variance: When adjusting for age, significant differences were observed across racial groups, highlighting the importance of demographic adjustment in clinical risk assessment.
-
-- Model Accuracy: The classification table indicated an overall predictive accuracy of 86.9%, successfully identifying high-risk individuals based on the provided parameters.
