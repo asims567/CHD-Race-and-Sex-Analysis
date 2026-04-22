@@ -9,6 +9,16 @@ This research data is originally from my statistics class project, which utilize
 
 
 
+## 🔬 Methodology
+Software: jamovi (Version 2.3)
+Statistical Model: Binomial Logistic Regression
+Dependent Variable: 
+- CHD Status (Binary: 0 = No Disease, 1 = Presence of Disease)
+- Covariates: Age (Continuous)
+- Factors: Race (4 levels: AF, MA, O, W)
+- Sex (Male, Female)
+
+
 
 
 
@@ -38,11 +48,10 @@ This research data is originally from my statistics class project, which utilize
 
 📊 Key Findings: The Gender Risk Gap
 - The analysis revealed a stark and statistically significant difference in heart disease risk based on sex ($p < .001$).
-- Odds Ratio (OR): 5.43Interpretation: Males in this sample are $5.43$ times more likely to have been diagnosed with Coronary Heart Disease compared to females.
+- Odds Ratio (OR): 5.43
+-       Interpretation: Males in this sample are $5.43$ times more likely to have been diagnosed with Coronary Heart Disease compared to females.
+
 - Confidence Interval: We are $95\%$ confident that the true increased risk for males falls between $2.30$ and $12.80$ times that of females.
-
-
-
 
 
 
@@ -50,6 +59,29 @@ This research data is originally from my statistics class project, which utilize
 📝 Discussion & ContextWhile the raw risk for males is over 5 times higher, this "unadjusted" model does not account for the fact that males in this dataset are significantly older than the females. This result serves as the "Baseline Comparison" before moving into the multivariate analysis where Age is controlled for.
 
 
+
+
+
+
+
+<img width="595" height="304" alt="image" src="https://github.com/user-attachments/assets/2547cf02-be86-4760-b275-6f635eeb2e06" />
+(Fig. 2)
+
+
+🔬 Methodology
+- Model Type: Binomial Logistic Regression (Bivariate)
+- Dependent Variable: CHD Status ($0$ = Absent, $1$ = Present)
+- Factor: Sex (Reference Level: Male, No CHD)
+- Model Fit: The model is statistically significant ($\chi^2 = 16.3, p < .001$), with a McFadden’s $R^2$ of $0.118$.
+
+📊 Key Findings: Reduced Odds in Females
+- The model provides a statistically significant negative estimate for the Female group ($p < .001$), indicating a lower likelihood of disease compared to the male baseline.
+  
+- Odds Ratio (OR): 0.184
+-       Interpretation: The odds of a female having CHD are $0.184$ times (or approximately $81.6\%$ lower than) the odds of a male having CHD.Baseline Odds (Intercept): The intercept $OR$ of $2.00$ indicates that for the reference group (Males), the odds of having CHD are $2:1$ (meaning they are twice as likely to have the disease as not to have it in this specific sample).Confidence Interval: The $95\%$ CI for the $OR$ is $[0.078, 0.434]$, which does not cross $1.0$, confirming a robust statistical effect.
+
+  
+-   📝 Statistical InsightIt is important to note that an Odds Ratio of $0.184$ is the mathematical reciprocal of the $5.43$ $OR$ found when Males were compared to Females ($1 / 5.43 \approx 0.184$). This demonstrates internal consistency in the data: while males have $5.4\times$ the risk of females, females have roughly $1/5$th the risk of males.
 
       
 
@@ -61,16 +93,6 @@ This research data is originally from my statistics class project, which utilize
 
 ## 2) Secondary: Is race also a significant factor for CHD? If so, which group is most prominent? 
 
-
-
-## 🔬 Methodology
-Software: jamovi (Version 2.3)
-Statistical Model: Binomial Logistic Regression
-Dependent Variable: 
-- CHD Status (Binary: 0 = No Disease, 1 = Presence of Disease)
-- Covariates: Age (Continuous)
-- Factors: Race (4 levels: AF, MA, O, W)
-- Sex (Male, Female)
 
 
 
