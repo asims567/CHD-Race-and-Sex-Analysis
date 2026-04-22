@@ -7,6 +7,7 @@ The goal of this project is to demonstrate competency in epidemiological data an
 
 
 With this dataset, I wanted to answer 2 questions: 
+
 - Primary: Is there evidence of higher CHD rates in males than in females, and vice versa? 
 
 - Secondary: Is race also a significant factor for CHD? If so, which group is most prominent?
@@ -14,16 +15,30 @@ With this dataset, I wanted to answer 2 questions:
 
 
 
-## 1) Primary: Is there evidence of higher CHD rates in males than in females, and vice versa? 
+## 1) Primary: Is there evidence of higher CHD rates in males than in females, and vice versa? Gender Specific Analysis
 
 
 
 <img width="654" height="297" alt="image" src="https://github.com/user-attachments/assets/ff2d2835-09b7-4225-99ba-f8fbe67c2685" />
 
-            
+
+🔬 Methodology
+- Model Type: Binomial Logistic Regression (Unadjusted)
+- Dependent Variable: CHD Status ($0$ = Absent, $1$ = Present)Factor: Sex (Reference Level: Female)
+- Statistical Power: The model is statistically significant ($\chi^2 = 16.3, p < .001$), explaining approximately $11.8\%$ of the variance in CHD status (McFadden’s $R^2 = 0.118$).
 
 
-[CHD_M-F_Analysis.html](https://github.com/user-attachments/files/26980248/CHD_M-F_Analysis.html)
+
+📊 Key Findings: The Gender Risk Gap
+- The analysis revealed a stark and statistically significant difference in heart disease risk based on sex ($p < .001$).
+- Odds Ratio (OR): 5.43Interpretation: Males in this sample are $5.43$ times more likely to have been diagnosed with Coronary Heart Disease compared to females.
+- Confidence Interval: We are $95\%$ confident that the true increased risk for males falls between $2.30$ and $12.80$ times that of females.
+
+
+
+📝 Discussion & ContextWhile the raw risk for males is over 5 times higher, this "unadjusted" model does not account for the fact that males in this dataset are significantly older than the females. This result serves as the "Baseline Comparison" before moving into the multivariate analysis where Age is controlled for.
+
+
 
       
 
