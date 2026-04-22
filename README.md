@@ -38,7 +38,7 @@ Dependent Variable:
 - Model Type: Binomial Logistic Regression (Unadjusted)
 - Dependent Variable: CHD Status (0 = Absent, 1 = Present)
 - Factor: Sex (Reference Levels: Female, No CHD)
-- Statistical Power: The model is statistically significant (\chi^2 = 16.3, p < .001), explaining approximately 11.8\% of the variance in CHD status (McFadden’s R^2 = 0.118).
+- Statistical Power: The model is statistically significant ($\chi^2 = 16.3, p < .001), explaining approximately 11.8\% of the variance in CHD status (McFadden’s R^2 = 0.118).
 
 
 
