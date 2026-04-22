@@ -19,7 +19,7 @@ This research data is originally from my statistics class project, which utilize
 
 <img width="654" height="297" alt="image" src="https://github.com/user-attachments/assets/ff2d2835-09b7-4225-99ba-f8fbe67c2685" />
 
-
+(Fig. 1)
 
 
 
