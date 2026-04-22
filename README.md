@@ -35,26 +35,21 @@ Dependent Variable:
 
 
 🔬 Methodology
+
 - Model Type: Binomial Logistic Regression (Unadjusted)
-- Dependent Variable: CHD Status (0 = Absent, 1 = Present)
-- Factor: Sex (Reference Levels: Female, No CHD)
-- Statistical Power: The model is statistically significant ($\chi^2 = 16.3, p < .001), explaining approximately 11.8\% of the variance in CHD status (McFadden’s R^2 = 0.118).
-
-
-
-
-
+- Dependent Variable: CHD Status ($0$ = Absent, $1$ = Present)
+- Factor: Sex (Reference Level: Female)
+- Statistical Power: The model is statistically significant ($\chi^2 = 16.3, p < .001$), explaining approximately $11.8\%$ of the variance in CHD status (McFadden’s $R^2 = 0.118$).
 
 📊 Key Findings: The Gender Risk Gap
-- The analysis revealed a stark and statistically significant difference in heart disease risk based on sex (p < .001).
-- Odds Ratio (OR): 5.43; Interpretation: Males in this sample are 5.43x times more likely to have been diagnosed with Coronary Heart Disease compared to females.
 
-- Confidence Interval: We are 95% confident that the true increased risk for males falls between 2.30 and 12.80 times that of females.
+- The analysis revealed a stark and statistically significant difference in heart disease risk based on sex ($p < .001$).
+- Odds Ratio (OR): 5.43; Interpretation: Males in this sample are $5.43$ times more likely to have been diagnosed with Coronary Heart Disease compared to females.
+- Confidence Interval: We are $95\%$ confident that the true increased risk for males falls between $2.30$ and $12.80$ times that of females.
 
+📝 Discussion & Context
 
-
-
-📝 Discussion & ContextWhile the raw risk for males is over 5 times higher, this "unadjusted" model does not account for the fact that males in this dataset are significantly older than the females. This result serves as the "Baseline Comparison" before moving into the multivariate analysis where Age is controlled for.
+- While the raw risk for males is over 5 times higher, this "unadjusted" model does not account for the fact that males in this dataset are significantly older than the females. This result serves as the "Baseline Comparison" before moving into the multivariate analysis where Age is controlled for.
 
 
 
