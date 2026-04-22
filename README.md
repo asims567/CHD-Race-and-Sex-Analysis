@@ -14,7 +14,7 @@ Statistical Model: Binomial Logistic Regression
 Dependent Variable: 
 - CHD Status (Binary: 0 = No Disease, 1 = Presence of Disease)
 - Covariates: Age (Continuous)
-- Factors: Race (4 levels: AF, MA, O, W)
+- Factors: Race (4 levels: AF = African American, MA = Mexican American, O = Others, W = White)
 - Sex (Male, Female)
 
 
