@@ -1,4 +1,4 @@
-[CHD_M-F_Analysis.html](https://github.com/user-attachments/files/26980248/CHD_M-F_Analysis.html)# CHD-Race-and-Sex-Analysis
+## CHD-Race-and-Sex-Analysis
 Research Analysis of CHD and Race/Sex 
 
 This research data is originally from my statistics class project, which utilizes a clinical dataset of 100 observations to investigate the primary demographic predictors of Coronary Heart Disease (CHD). Using Binomial Logistic Regression in jamovi, this analysis examines how variables such as Age, Sex, and Race influence the probability of a CHD diagnosis.
@@ -22,6 +22,8 @@ With this dataset, I wanted to answer 2 questions:
 
             
 
+
+[CHD_M-F_Analysis.html](https://github.com/user-attachments/files/26980248/CHD_M-F_Analysis.html)
 
       
 
