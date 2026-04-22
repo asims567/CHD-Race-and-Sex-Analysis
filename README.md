@@ -122,11 +122,11 @@ Dependent Variable:
 
 - The analysis identified a clear hierarchy of risk, with the African American and Mexican American groups showing the most prominent likelihood of disease.
 
-1. Predicted ProbabilitiesThe Estimated Marginal Means represent the "real-world" probability of a person in each group having CHD based on this sample:
+1. Predicted Probabilities: The Estimated Marginal Means represent the "real-world" probability of a person in each group having CHD based on this sample:
 - AF (African American): 64.3% probability
 - MA (Mexican American): 56.5% probability
 - O (Other): 41.7% probability
-- W (White): 20.0% probability (Baseline)
+- W (White): 20.0% probability
 
 
 2. Relative Risk (Odds Ratios)Using the White (W) group as the benchmark, the Odds Ratios (OR) quantify how much higher the risk is for other groups:
