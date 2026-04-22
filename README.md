@@ -58,6 +58,7 @@ Dependent Variable:
 
 
 <img width="595" height="304" alt="image" src="https://github.com/user-attachments/assets/2547cf02-be86-4760-b275-6f635eeb2e06" />
+
 (Fig. 2)
 
 
