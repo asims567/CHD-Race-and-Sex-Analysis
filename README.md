@@ -5,12 +5,18 @@ This research project utilizes a clinical dataset of 100 observations to investi
 
 The goal of this project is to demonstrate competency in epidemiological data analysis, multivariate statistical modelling, and the interpretation of odds ratios (OR) in a public health context.
 
+
+
 ## 🔬 Methodology
 Software: jamovi (Version 2.3)
 Statistical Model: Binomial Logistic Regression
-Dependent Variable: CHD Status (Binary: 0 = No Disease, 1 = Presence of Disease)
-Covariates: Age (Continuous)
-Factors: Race (4 levels: AF, MA, O, W), Sex (Male, Female)
+Dependent Variable: 
+- CHD Status (Binary: 0 = No Disease, 1 = Presence of Disease)
+- Covariates: Age (Continuous)
+- Factors: Race (4 levels: AF, MA, O, W)
+- Sex (Male, Female)
+
+
 
 
 ## Data Set
@@ -117,3 +123,19 @@ Factors: Race (4 levels: AF, MA, O, W), Sex (Male, Female)
 |   0 | O    | M   |  50 |
 |   0 | O    | M   |  52 |
 |   0 | O    | M   |  55 |
+
+
+
+
+
+
+
+
+## 📊 Key Findings
+
+The final model was highly significant **($\chi^2 = 89.6, p < .001$)** with a McFadden $R^2$ of 0.650, indicating strong predictive power. 
+- Age as a Primary Driver: Age proved to be the most significant predictor **($p < .001$)**. For every one-year increase in age, the odds of having CHD increase by **77.9% (OR = 1.779)**.
+  
+- Demographic Variance: When adjusting for age, significant differences were observed across racial groups, highlighting the importance of demographic adjustment in clinical risk assessment.
+
+- Model Accuracy: The classification table indicated an overall predictive accuracy of 86.9%, successfully identifying high-risk individuals based on the provided parameters.
