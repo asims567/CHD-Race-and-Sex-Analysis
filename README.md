@@ -67,6 +67,9 @@ Dependent Variable:
 (Fig. 2)
 
 
+
+
+
 🔬 Methodology
 - Model Type: Binomial Logistic Regression (Bivariate)
 - Dependent Variable: CHD Status ($0$ = Absent, $1$ = Present)
@@ -76,7 +79,7 @@ Dependent Variable:
 📊 Key Findings: Reduced Odds in Females
 - The model provides a statistically significant negative estimate for the Female group ($p < .001$), indicating a lower likelihood of disease compared to the male baseline.
   
-- Odds Ratio (OR): 0.184; Interpretation: The odds of a female having CHD are $0.184$ times (or approximately $81.6\%$ lower than) the odds of a male having CHD.Baseline Odds
+- Odds Ratio (OR): 0.184; Interpretation: The odds of a female having CHD are $0.184$ times (or approximately $81.6\%$ lower than) the odds of a male having CHD.
   
 - (Intercept): The intercept OR of $2.00$ indicates that for the reference group (Males), the odds of having CHD are 2:1 (meaning they are twice as likely to have the disease as not to have it in this specific sample).Confidence Interval: The $95\%$ CI for the $OR$ is [0.078, 0.434], which does not cross $1.0, confirming a robust statistical effect.
 
