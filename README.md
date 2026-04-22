@@ -75,12 +75,12 @@ Dependent Variable:
 📊 Key Findings: Reduced Odds in Females
 
 - The model provides a statistically significant negative estimate for the Female group ($p < .001$), indicating a lower likelihood of disease compared to the male baseline.
-- Odds Ratio (OR): 0.184; Interpretation: The odds of a female having CHD are $0.184$ times ($81.6\%$) the odds of a male having CHD.
-- Baseline Odds (Intercept): The intercept $OR$ of $2.00$ indicates that for the reference group (Males), the odds of having CHD are $2:1$ (meaning they are twice as likely to have the disease as not to have it in this specific sample).
+- Odds Ratio (OR): 0.184: The odds of a female having CHD are $0.184$ times (81.6% less than) the odds of  males having CHD.
+- (Intercept): The intercept $OR$ of $2.00$ indicates that for the reference group (Males), the odds of having CHD are $2:1$ (Men are twice as likely to have the disease).
 - Confidence Interval: The $95\%$ CI for the $OR$ is $[0.078, 0.434]$. 
 
 
-📝 Statistical Insight: It is important to note that an Odds Ratio of $0.184$ is the mathematical reciprocal of the $5.43$ $OR$ found when Males were compared to Females ($1 / 5.43 \approx 0.184$). This demonstrates internal consistency in the data: while males have $5.4\times$ the risk of females, females have roughly $1/5$th the risk of males.
+📝 Statistical Insight: It is important to note that an Odds Ratio of $0.184$ is the mathematical reciprocal of the $5.43$ $OR$ found when Males were compared to Females ($1 / 5.43 \approx 0.184$). This demonstrates internal consistency in the data: while males have $5.4\times$ the risk of females, females have roughly 1/5th the risk of males.
 
       
 
