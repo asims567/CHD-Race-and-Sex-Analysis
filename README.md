@@ -1,9 +1,7 @@
 ## CHD-Race-and-Sex-Analysis
 Research Analysis of CHD and Race/Sex 
 
-This research data is originally from my statistics class project, which utilizes a clinical dataset of 100 observations to investigate the primary demographic predictors of Coronary Heart Disease (CHD). Using Binomial Logistic Regression in jamovi, this analysis examines how variables such as Age, Sex, and Race influence the probability of a CHD diagnosis.
-
-The goal of this project is to demonstrate competency in epidemiological data analysis, multivariate statistical modelling, and the interpretation of odds ratios (OR) in a public health context. With this dataset, I wanted to answer 2 questions: 
+This research data is originally from my statistics class project, which utilizes a clinical dataset of 100 observations to investigate the primary demographic predictors of Coronary Heart Disease (CHD). Using Binomial Logistic Regression in jamovi, this analysis examines how variables such as Age, Sex, and Race influence the probability of a CHD diagnosis. The goal of this project is to demonstrate competency in epidemiological data analysis, multivariate statistical modelling, and the interpretation of odds ratios (OR) in a public health context. With this dataset, I wanted to answer 2 questions: 
 
 - Primary: Is there evidence of higher CHD rates in males than in females, and vice versa? 
 - Secondary: Is race also a significant factor for CHD? If so, which group is most prominent?
