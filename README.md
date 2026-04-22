@@ -25,7 +25,7 @@ Dependent Variable:
 ## 1) Primary: Is there evidence of higher CHD rates in males than in females, and vice versa? Gender Specific Analysis
 
 
-
+### Male to Female
 <img width="654" height="297" alt="image" src="https://github.com/user-attachments/assets/ff2d2835-09b7-4225-99ba-f8fbe67c2685" />
 
 (Fig. 1)
@@ -55,7 +55,7 @@ Dependent Variable:
 
 
 
-
+### Female to Male
 
 <img width="595" height="304" alt="image" src="https://github.com/user-attachments/assets/2547cf02-be86-4760-b275-6f635eeb2e06" />
 
